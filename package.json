@@ -1,18 +1,39 @@
 {
   "name": "faster-pwa",
-  "displayName": "faster-pwa",
+  "displayName": "Faster PWA",
   "description": "Snippets for pwa-generator template",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.54.0"
   },
+  "publisher": "luisra99",
   "categories": [
     "Snippets"
   ],
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisra99/faster-pwa.git"
+  },
+  "keywords": [
+    "pwa",
+    "snippets",
+    "productivity",
+    "template"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/luisra99/faster-pwa.git#readme",
+  "bugs": {
+    "url": "https://github.com/luisra99/faster-pwa.git/issues"
+  },
+  "author": {
+    "name": "luisra99",
+    "email": "luisraul.alfonsoc@gmail.com"
+  },
   "contributes": {
     "snippets": [
       {
-        "language": "javascript",
+        "language": "typescriptreact",
         "path": "./snippets/snippets.code-snippets"
       }
     ]

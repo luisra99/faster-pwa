@@ -1,9 +1,18 @@
 {
-  "Nombre del Snippet": {
-    "prefix": "miSnippet",
-    "body": [
-      "console.log('Hola, mundo!');"
-    ],
-    "description": "Este snippet imprime 'Hola, mundo!' en la consola."
-  }
+    "Crear estado React con setter": {
+        "prefix": "tsst",
+        "body": [
+            "const [${1:estado}, set${1/(.*)/${1:/capitalize}/}] = useState<${2:tipoDeDato}>(${3:valorInicial});"
+        ],
+        "description": "Crea un estado React con su setter en TypeScript"
+    },
+    "Crear funcion flecha ": {
+        "prefix": "tsaf",
+        "body": [
+            "const ${1:nombreFunción} = ${2:async} (${3:argumentos}):${4:tipoDeRespuesta} => {",
+            "${5:lógica}",
+            "}"
+        ],
+        "description": "Crea un estado React con su setter en TypeScript"
+    },
 }
