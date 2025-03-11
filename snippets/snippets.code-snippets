@@ -1,0 +1,9 @@
+{
+  "Nombre del Snippet": {
+    "prefix": "miSnippet",
+    "body": [
+      "console.log('Hola, mundo!');"
+    ],
+    "description": "Este snippet imprime 'Hola, mundo!' en la consola."
+  }
+}
